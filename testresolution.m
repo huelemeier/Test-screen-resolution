@@ -29,7 +29,7 @@ white = WhiteIndex(screenid);
 grey = white / 2;
 
 % Open an on screen window and color it grey
-[win, winRect] = PsychImaging('OpenWindow', screenid, 0, [], [], [], stereoMode, multiSample); %0 0 960 600 %1920 1200 für mac sonst 2200 1100 für projector
+[win, winRect] = PsychImaging('OpenWindow', screenid, 0, [], [], [], stereoMode, multiSample); %full screen. If you want to change the screen size of your window, just change the code. For instance: PsychImaging('OpenWindow', screenid, 0, [0 0 800 600], [], [], stereoMode, multiSample);
 [win_xcenter, win_ycenter] = RectCenter(winRect);
 xwidth=RectWidth(winRect);
 yheight=RectHeight(winRect);
@@ -90,11 +90,11 @@ while ~buttons
 end
 
 
-% if any(buttons)
-%     [~, ~, buttons]=GetMouse(screenid);
-%     responseleft = buttons(1);
-%     responseright = buttons(2);
-% end
+if any(buttons)
+     [~, ~, buttons]=GetMouse(screenid);
+     responseleft = buttons(1);
+     responseright = buttons(2);
+end
 
 
 
