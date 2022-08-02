@@ -17,5 +17,6 @@ Open the script in Matlab and click on 'run'. Psychtoolbox automatically opens a
 
 
 By clicking either the left or the right buttom of your computer mouse, you terminate the script and the Psychotoolbox window closes. Matlab's command window will provide information whether you pressed the left or right buttom. The pressed buttom is coded by the number 1. 
+
 ![Bildschirmfoto 2022-08-02 um 13 50 11](https://user-images.githubusercontent.com/69513270/182368116-3d380e82-5be3-437b-9a1b-ab338b29e7c0.png)
 
