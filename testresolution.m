@@ -2,6 +2,8 @@
 % this script writes down the current resolution on the screen and refresh rate. This script
 % has, thus, only testing purposes.
 
+function testresolution
+
 
 %% general settings
 % Clear the workspace and the screen
@@ -105,4 +107,4 @@ end
 sca;
 
 
-
+return
