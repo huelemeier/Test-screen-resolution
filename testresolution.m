@@ -36,12 +36,6 @@ grey = white / 2;
 xwidth=RectWidth(winRect);
 yheight=RectHeight(winRect);
 
-screen_height= 198; %24.07; %physical height of display in cm
-screen_width= 248; %34.93; %physical width of display in cm
-screen_distance=100;%30; %physical viewing distance in cm
-screen_distance_in_pixels=xwidth/screen_width*screen_distance; %physical viewing distance in pixel
-
-
 % Set the blend funciton for the screen
 Screen('BlendFunction', win, 'GL_SRC_ALPHA', 'GL_ONE_MINUS_SRC_ALPHA');
 
