@@ -13,8 +13,9 @@ Download the file and add it to your Matlab folder.
 
 ## Run the script
 Open the script in Matlab and click on 'run'. Psychtoolbox automatically opens a window and runs the script in that window. You will see information about window's height, width, refresh rate, and frames per second. 
-<img width="800" alt="Bildschirmfoto 2022-08-02 um 14 43 55" src="https://user-images.githubusercontent.com/69513270/182377612-d9735692-082f-49a6-ae4d-d8099a2383d0.png">
 
+
+<img width="800" alt="window" src="https://user-images.githubusercontent.com/69513270/183718590-a9e651f4-7bad-4033-85e9-92b95120ad1c.png">
 
 
 By clicking either the left or the right buttom of your computer mouse, you terminate the script and the Psychotoolbox window closes. Matlab's command window will provide information whether you pressed the left or right buttom. The pressed buttom is coded by the number 1. 
