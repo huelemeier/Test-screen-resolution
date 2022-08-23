@@ -1,6 +1,6 @@
-# Test screen resolution of your screen window // Matlab and Psychtoolbox
+# Test screen resolution of your Psychtoolbox window 
 
-The purpose of this script is to test the screen resolution and refresh rate. When running experiments with externally connected screens, it can be useful to check the technical set-up.
+The purpose of this script is to test the screen resolution and refresh rate of your Psychtoolbox window. When running experiments with externally connected screens, it can be useful to check the technical set-up.
 
 ## Technical requirements and set-up
 These scripts are optimized for MatLab 2021b with Psychtoolbox (http://psychtoolbox.org/download.html) with OpenGL add-ons. So what needs to be installed on you computer are Matlab and Psychtoolbox.
