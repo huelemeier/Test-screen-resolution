@@ -78,7 +78,7 @@ while ~buttons
     line3 = '\nheight: ';
     line4 = '\nrefresh rate: ';
     line5 = '\nframes per second: ';
-    line6 = '\n\nPress the left or right mouse buttom to close the window.';
+    line6 = '\n\nPress the left or right mouse button to close the window.';
     Screen('TextSize',win, 20);
     DrawFormattedText(win, [line1 line2 numberxwidth line3 numberyheight line4 refreshrate line5 framespersecond line6],win_xcenter-200,win_ycenter, white);
     Screen('DrawingFinished', win);
